@@ -1,0 +1,27 @@
+.playpause-track
+{
+color: #F14E95;
+position: fixed;
+bottom: 80px;
+right: 22px;
+z-index: 999;
+-webkit-transition: 0.5s;
+-o-transition: 0.5s;
+transition: 0.5s;
+}
+
+.playpause-track:hover
+{
+visibility: visible;
+}
+
+i,
+i.fa-play-circle
+i.fa-pause-circle,
+p {
+    cursor: pointer;
+}
+
+.slider_container {
+    display: none;
+}
